@@ -1,4 +1,4 @@
 <launch>
-    <arg name="map_file" default="$(find map_provider)/maps/tb3_house_map.yaml" />
+    <arg name="map_file" default="$(find map_provider)/maps/map_turtle_final.yaml" />
     <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)" />
 </launch>
